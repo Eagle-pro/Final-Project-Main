@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/coffee_db
+    username: root
+    password: Tedipapa1684/
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+
+    show-sql: true
+
+server:
+  error:
+    include-stacktrace: never
